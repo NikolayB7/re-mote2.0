@@ -1,0 +1,43 @@
+.socials {
+	float: right;
+  &__item {
+		float: left;
+		margin: 5px;
+		display: block;
+		background-color: #E73741;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		transition: all 0.5s;
+		
+		@include media-breakpoint-down(xs) {
+			margin-top: 25px;
+		}
+		@include media-breakpoint-down(sm) {
+			margin-top: 25px;
+		}
+		&:hover{
+			background-color: #EA555D;
+		}
+    &--fb {
+			background-image: url('../img/Shape.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 18px;
+			background-origin: content-box;
+			background-position: center;
+    }
+    &--tw {
+			background-image: url('../img/Shape_1.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 16px;
+			background-origin: content-box;
+			background-position: center;
+    }
+  }
+}
+

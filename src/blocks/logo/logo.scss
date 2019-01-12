@@ -1,0 +1,11 @@
+.logo {
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+	
+	@include media-breakpoint-down(xs) {
+		margin-bottom: 10px;
+	}
+}

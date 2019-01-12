@@ -1,0 +1,45 @@
+.item {
+	position: relative;
+	margin: 15px 0;
+	height: 470px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+	overflow: hidden;
+	opacity: 1;
+	transition: all 0.5s;
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: normal;
+
+	@include media-breakpoint-down(xs) {
+		height: auto;
+	}
+
+	&:hover{
+		transform: scale(0.98);
+		opacity: 0.8;
+	}
+  &__picture {
+		background-image: url('../img/item__picture.png') !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+
+		@include media-breakpoint-down(sm) {
+			height: 150px;
+		}
+  }
+  
+  &__content {
+    
+  }
+  
+  &__content-top {
+		padding: 25px 20px;
+  }
+  
+  &__date {
+		position: absolute;
+		bottom: 16.8px;
+		right: 18px;
+  }
+}

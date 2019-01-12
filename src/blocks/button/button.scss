@@ -1,0 +1,24 @@
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 163px;
+	background-color: #E73741;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Fira Sans';
+  font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+.button:hover{
+	color: #FFFFFF;
+	box-shadow:
+	0 0 1px rgba(0,0,0,.5) inset,
+	0 4px 5px rgba(0,0,0,.5) inset,
+	0 1px 1px rgba(255,255,255,.1);
+}

@@ -1,0 +1,15 @@
+.input{
+	padding-top: 9px;
+	padding-left: 11px;
+	padding-bottom: 11px;
+	margin: 10px auto;
+	display: block;
+	width: 100%;
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 5px;
+	
+	&--textarea{
+		height: 150px;
+	}
+}

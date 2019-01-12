@@ -1,0 +1,29 @@
+.header {
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	background-color: #fff;
+	
+	@include media-breakpoint-down(xs) {
+		height: 130px;
+		position: static;
+		}
+  &__content {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+
+		@include media-breakpoint-down(xs) {
+			flex-direction: column;
+			}
+  }
+}
+
